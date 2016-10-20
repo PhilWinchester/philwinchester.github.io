@@ -1,19 +1,52 @@
-/*video{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /*transform: translateX(-50%) translateY(-50%);
-}*/
-video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translate(-50%, -50%);
+* {
+  margin: 0;
+}
+body {
+  background: url("./assets/ruddpond.png") no-repeat center center fixed;
+  background-size: cover;
+}
+div.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+
+  outline: 3px solid white;
+  outline-offset: -2vw;
+}
+div.about{
+  background-color: white;
+
+  width: 20vw;
+  height: 10vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+
+}
+h1{ /*this isn't lined up with margins b/c of offset with a + ul*/
+  float: left;
+  margin: 4vw;
+}
+ul {
+  float: right;
+  margin: 5vw;
+}
+a {
+  margin: 2vw;
+  padding: 2vh 4vw;
+  border-radius: .5rem;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(101,	117,	133	, .5);
+}
+a:hover{
+  background-color: black;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+}
+a:active{
+  transform: translateY(2px); /*not working*/
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24);
 }
