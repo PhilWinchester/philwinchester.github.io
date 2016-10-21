@@ -4,6 +4,7 @@
 body {
   background: url("./assets/ruddpond.png") no-repeat center center fixed;
   background-size: cover;
+  /*opacity: 0.8;*/
 }
 div.container{
   background-color: rgba(0, 0, 0, 0.5);
