@@ -46,7 +46,7 @@ body {
 }
 
 .projects {
-  background-color: firebrick;
+  background-color: #DEDEDE;
 
   height: 100vh;
 
@@ -61,11 +61,19 @@ body {
 }
 
 .contact {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
   height: 100vh;
+  position: relative;
+
+  outline: 3px solid white;
+  outline-offset: -2vw;
+
 }
 
 .proj {
-  background-color: dodgerblue;
+  background-color: #FAFAFA;
+  color: #222;
   width: 100px;
   height: 75px;
   border-radius: .1rem;
