@@ -1,3 +1,11 @@
+/* Code Colors
+* Python def  - 255	138	80
+* Python func - 23	56	245
+* Python str  - 0	180	54
+* Python char - 164	38	159
+* JavaSc func - 102	216	235
+* JavaSc var  - 248	248	243
+*/
 * {
   margin: 0;
 }
@@ -5,7 +13,7 @@ body {
   background: url("./assets/ruddpond.png") no-repeat center center fixed;
   background-size: cover;
   color: #FAFAFA;
-  color: rgb(250,250,250);
+  /*color: rgb(250,250,250);*/
   height: 100vh;
 }
 .container{
@@ -16,33 +24,35 @@ body {
 
   outline: 3px solid white;
   outline-offset: -2vw;
+
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
 }
 .about{
-  border-radius: .1rem;
-
-  width: 400px;
-  height: 50px;
-  text-align: center;
-  font-size: 32px;
-
-  position: relative;
+  position: absolute;
   top: 65vh;
-  left: 65vw;
+  left: 5vw;
 
-  animation-duration: 2s;
-  animation-name: slidein;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
 }
 
-@keyframes slidein {
-  from {
-    font-size: 12px;
-    left: 100vw;
-  }
-
-  to {
-    font-size: 32px;
-    left: 65vw;
-  }
+.code-card {
+  font-size: 24px;
+  background-color: #222;
+  color: #FAFAFA;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+}
+#js-txt {
+  padding-left: 5px;
+}
+#py-txt {
+  padding-left: 5px;
 }
 
 .projects {
@@ -77,6 +87,32 @@ body {
   width: 100px;
   height: 75px;
   border-radius: .1rem;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.code-card {
+  background-color: #222
 }
 
 p {
