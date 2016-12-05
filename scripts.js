@@ -73,7 +73,7 @@
         <span class='ind2'>));</span><br>
         <span class='ind0'>}</span>
       `],
-      typeSpeed: -30,
+      typeSpeed: -25,
     });
 
   }
