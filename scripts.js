@@ -32,7 +32,7 @@
         <span class='ind3'> self.avg_hours_of_sleep = 4</span><br>
           <span class='ind3'> self.curr_working_on_project = <span class='pyChar'>True </span></span><br>
         <span class='ind3'> <span class='pyDef'>for</span> c <span class='pyDef'>in</span> <span class='pyChar'>range</span>(importance): </span><br>
-        <span class='ind4'> num_cups++</span><br>
+        <span class='ind4'> num_cups_coffee++</span><br>
         <span class='ind4'> friends--</span><br>
         <span class='ind2'><span class='pyDef'>def</span> <span class='pyFunc'>finish_project (self): </span> </span><br>
         <span class='ind3'> self.num_projects++</span><br>
