@@ -77,11 +77,20 @@ body {
   font-size: 18px;
   padding-left: 15px;
 }
+.proj-link{
+  margin-left: 6vw;
+  padding: 1vh 2vw;
+  width: 20px;
+  border-radius: .2rem;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(51,	67,	83	, .5);
+}
 
 .contact {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
-  height: 20vh;
+  height: 22vh;
   position: relative;
 
   outline: 3px solid white;
@@ -197,7 +206,7 @@ a:hover{
   color: rgb(151,	222,	41)
 }
 .jsStr{
-  color: rgb(182,206,105)
+  color: rgb(202,186,105)
 }
 .jsChar{
   color: rgb(148,118,255)
