@@ -1,11 +1,3 @@
-/* Code Colors
-* Python def  - 255	138	80
-* Python func - 23	56	245
-* Python str  - 0	180	54
-* Python char - 164	38	159
-* JavaSc func - 102	216	235
-* JavaSc var  - 248	248	243
-*/
 * {
   margin: 0;
 }
@@ -24,24 +16,18 @@ body {
 
   outline: 3px solid white;
   outline-offset: -2vw;
-
-  /*display: flex;
-  justify-content: center;
-  align-items: center;*/
 }
 .about{
-  position: absolute;
-  top: 65vh;
-  left: 5vw;
+  position: relative;
 
   display: flex;
   justify-content: center;
   align-content: center;
-
 }
-
 .code-card {
-  font-size: 24px;
+  border-radius: .1rem;
+  box-shadow: 0px 3px 4px 2px rgba(0,0,0,0.75);
+  font-size: 18px;
   background-color: #222;
   color: #FAFAFA;
   width: 500px;
@@ -57,17 +43,39 @@ body {
 
 .projects {
   background-color: #DEDEDE;
-
+  background: linear-gradient(#DEDEDE, #FAFAFA);
   height: 100vh;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  padding: 20px;
+}
+
+.proj-card {
+  background-color: #FAFAFA;
+  color: #222;
+  box-shadow: 0px 3px 4px 2px rgba(0,0,0,0.75);
+  width: 300px;
+  height: 250px;
+  border-radius: .1rem;
+}
+
+.proj-card h4 {
+  text-shadow: 0px 2px 2px rgba(150, 150, 150, 1);
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.proj-card p {
+  font-size: 18px;
+  padding-left: 15px;
 }
 
 .contact {
@@ -79,14 +87,6 @@ body {
   outline: 3px solid white;
   outline-offset: -2vw;
 
-}
-
-.proj {
-  background-color: #FAFAFA;
-  color: #222;
-  width: 100px;
-  height: 75px;
-  border-radius: .1rem;
 }
 
 .typed-cursor{
@@ -118,10 +118,14 @@ body {
 p {
   padding: 10px;
 }
-h1 {
+.header {
+  width: 22vw;
+  height: 22vh;
   float: left;
   margin: 4vw;
-  font-size: 44px;
+}
+.header h1{
+  font-size: 34px;
 }
 ul {
   float: right;
@@ -142,4 +146,46 @@ a:hover{
 a:active{
   transform: translateY(2px);
   box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24);
+}
+
+/*Spans for code effect*/
+.ind1 {
+  padding-left: 10px;
+}
+.ind2 {
+  padding-left: 15px;
+}
+.ind3 {
+  padding-left: 23px;
+}
+.ind3 {
+  padding-left: 31px;
+}
+
+/* Code Colors
+* Python def  - 255	138	80
+* Python func - 23	56	245
+* Python str  - 0	180	54
+* Python char - 164	38	159
+* ~~~~~~~~~~~~~~~~~~~~~~~~~
+* JavaSc func - 102	216	235
+* JavaSc var  - 248	248	243
+*/
+.pyDef{
+  color: rgb(255,138,80)
+}
+.pyFunc{
+  color: rgb(23,56,245)
+}
+.pyStr{
+  color: rgb(0,180,54)
+}
+.pyChar{
+  color: rgb(164,38,159)
+}
+.jsFunc{
+  color: rgb(102,216,235)
+}
+.jsVar{
+  color: rgb(248,248,243)
 }
