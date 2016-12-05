@@ -31,7 +31,7 @@ body {
   background-color: #222;
   color: #FAFAFA;
   width: 500px;
-  height: 510px;
+  height: 530px;
   margin: 10px;
 }
 #js-txt {
@@ -177,7 +177,6 @@ a:hover{
 .ind6 {
   padding-left: 41px;
 }
-
 /* Code Colors
 * Python def  - 255	138	80
 * Python func - 23	56	245
