@@ -28,7 +28,7 @@
         <span class='ind3'> self.avg_hours_of_sleep = 7</span><br>
         <span class='ind3'> self.curr_working_on_project = <span class='pyChar'>False </span></span><br>
         <span class='ind2'><span class='pyDef'>def</span> <span class='pyFunc'>start_project (self, importance): </span> </span><br>
-        <span class='ind3'> num_cups = 0</span><br>
+        <span class='ind3'> num_cups_coffee = 0</span><br>
         <span class='ind3'> self.avg_hours_of_sleep = 4</span><br>
           <span class='ind3'> self.curr_working_on_project = <span class='pyChar'>True </span></span><br>
         <span class='ind3'> <span class='pyDef'>for</span> c <span class='pyDef'>in</span> <span class='pyChar'>range</span>(importance): </span><br>
