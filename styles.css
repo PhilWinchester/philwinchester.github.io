@@ -94,7 +94,7 @@ body {
 .contact {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
-  height: 22vh;
+  height: 180px;
   position: relative;
 
   outline: 3px solid white;
