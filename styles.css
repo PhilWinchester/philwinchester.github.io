@@ -31,7 +31,7 @@ body {
   background-color: #222;
   color: #FAFAFA;
   width: 500px;
-  height: 500px;
+  height: 510px;
   margin: 10px;
 }
 #js-txt {
@@ -89,10 +89,10 @@ body {
 }
 
 .typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
 @keyframes blink{
     0% { opacity:1; }
@@ -143,6 +143,9 @@ a:hover{
 }
 
 /*Spans for code effect*/
+.ind0 {
+  padding-left: 5px;
+}
 .ind1 {
   padding-left: 10px;
 }
@@ -154,6 +157,12 @@ a:hover{
 }
 .ind4 {
   padding-left: 31px;
+}
+.ind5 {
+  padding-left: 36px;
+}
+.ind6 {
+  padding-left: 41px;
 }
 
 /* Code Colors
@@ -167,12 +176,13 @@ a:hover{
 * JavaSc str  - 182	206	105
 * JavaSc char - 148	118	255
 * JavaSc key  - 248	33	97
+* JavaSc Comm - 97	102	83
 */
 .pyDef{
   color: rgb(255,138,80)
 }
 .pyFunc{
-  color: rgb(23,56,245)
+  color: rgb(45,86,205)
 }
 .pyStr{
   color: rgb(0,180,54)
@@ -194,4 +204,7 @@ a:hover{
 }
 .jsKey{
   color: rgb(248,33,97)
+}
+.jsComm{
+  color: rgb(97,102,83)
 }
