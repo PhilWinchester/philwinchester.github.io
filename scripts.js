@@ -28,13 +28,13 @@
         <span class='ind3'> <span class='pyChar'>print </span> <span class='pyStr'> "git commit -m "whoops forgot <br> <span class='ind4'>to commit && git push origin master"</span></span><br>
       `],
       // typeSpeed: -2000,
-      typeSpeed: -25,
+      typeSpeed: -50,
     });
   }
 
   drawPythonCode()
   // drawJavascriptCode()
-  let timeoutID = setTimeout(drawJavascriptCode, 18000)
+  let timeoutID = setTimeout(drawJavascriptCode, 10000)
 
   function drawJavascriptCode() {
     jsSpan.typed({
@@ -63,7 +63,7 @@
         <span class='ind0'>}</span>
       `],
       // typeSpeed: -2000,
-      typeSpeed: -25,
+      typeSpeed: -50,
     });
 
   }
