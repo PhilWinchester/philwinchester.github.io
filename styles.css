@@ -92,12 +92,12 @@ body {
 }
 
 .contact {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #222;
   width: 100vw;
   height: 180px;
   position: relative;
 
-  outline: 3px solid white;
+  outline: 3px solid #FAFAFA;
   outline-offset: -2vw;
 }
 
