@@ -27,14 +27,14 @@
         <span class='ind3'> self.avg_hours_of_sleep = 7</span><br>
         <span class='ind3'> <span class='pyChar'>print </span> <span class='pyStr'> "git commit -m "whoops forgot <br> <span class='ind4'>to commit && git push origin master"</span></span><br>
       `],
-      typeSpeed: -2000,
-      // typeSpeed: -25,
+      // typeSpeed: -2000,
+      typeSpeed: -25,
     });
   }
 
   drawPythonCode()
-  drawJavascriptCode()
-  // let timeoutID = setTimeout(drawJavascriptCode, 18000)
+  // drawJavascriptCode()
+  let timeoutID = setTimeout(drawJavascriptCode, 18000)
 
   function drawJavascriptCode() {
     jsSpan.typed({
@@ -52,7 +52,8 @@
         <span class='ind3'>sunset<span class='jsChar'> REAL NOT NULL</span>,</span><br>
         <span class='ind3'>description<span class='jsChar'> VARCHAR</span></span><br>
         <span class='ind2'>); <span class='jsComm'>//setup REACT component</span></span><br>
-        <span class='ind2'><span class='jsFunc'>const</span> sunset <span class='jsKey'> = </span><span class='jsFunc'>Object</span><span class='jsKey'>.</span><span class='jsDef'>keys</span>(this<span class='jsKey'>.</span>props<span class='jsKey'>.</span>sunsets) </span><br>
+        <span class='ind2'><span class='jsFunc'>const</span> sunset <span class='jsKey'> = </span></span><br>
+        <span class='ind3'><span class='jsFunc'>Object</span><span class='jsKey'>.</span><span class='jsDef'>keys</span>(this<span class='jsKey'>.</span>props<span class='jsKey'>.</span>sunsets) </span><br>
         <span class='ind3'><span class='jsKey'>.</span><span class='jsDef'>map</span>((sunsID, ind)<span class='jsFunc'> => </span>(</span><br>
         <span class='ind4'><<span class='jsFunc'>SunsetItem</span></span><br>
         <span class='ind5'><span class='jsDef'>quality</span>={this<span class='jsKey'>.</span>props<span class='jsKey'>.</span>sunsets<span class='jsKey'>.</span><br><span class='ind6'>[sunsID].quality}</span><br>
@@ -61,8 +62,8 @@
         <span class='ind2'>));</span><br>
         <span class='ind0'>}</span>
       `],
-      typeSpeed: -2000,
-      // typeSpeed: -25,
+      // typeSpeed: -2000,
+      typeSpeed: -25,
     });
 
   }
