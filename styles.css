@@ -17,7 +17,7 @@ body {
   height: 100vh;
   position: relative;
 
-  outline: 3px solid white;
+  outline: 3px solid #FAFAFA;
   outline-offset: -2vw;
 }
 .about{
@@ -53,6 +53,9 @@ body {
   justify-content: space-around;
   align-items: center;
 
+  outline: 3px solid #222;
+  outline-offset: -2vw;
+
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,6 +65,7 @@ body {
   background-color: #FAFAFA;
   color: #222;
   box-shadow: 0px 3px 4px 2px rgba(0,0,0,0.75);
+  padding: 5px;
   width: 300px;
   height: 450px;
   border-radius: .1rem;
@@ -78,12 +82,14 @@ body {
 }
 .proj-link{
   position: absolute;
-  top: 75%;
-  left: 19%;
-  padding: 1vh 2vw;
+  top: 85%;
+  left: 27%;
   width: 90px;
+  padding: 1vh 2vw;
   border-radius: .2rem;
+
   text-decoration: none;
+  letter-spacing: .5px;
 
   background-color: #222;
   color: #FAFAFA;
@@ -103,6 +109,48 @@ body {
   outline: 3px solid #FAFAFA;
   outline-offset: -2vw;
 }
+p {
+  padding: 10px;
+}
+.header {
+  width: 22vw;
+  height: 22vh;
+  float: left;
+  margin: 4vw;
+}
+.header h1{
+  font-size: 34px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vw;
+  margin-top: 0vw;
+}
+.contact-links {
+  margin: 2vw;
+  margin-top: 5vh;
+  padding: 2vh 4vw;
+  border-radius: .3rem;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #FAFAFA;
+  background-color: rgba(101,	117,	133	, .5);
+}
+.contact-links:hover{
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 1);
+  background-color: rgba(81,	97,	113	, .5);
+}
+#contact-info {
+  background-color: firebrick;
+  transition: 2s;
+}
+#contact-info:hover {
+  width: 200px;
+  height: 60px;
+  background-color: dodgerblue;
+}
+/*Cursor Styling for Code Cards*/
 .typed-cursor{
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
@@ -123,37 +171,6 @@ body {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-}
-p {
-  padding: 10px;
-}
-.header {
-  width: 22vw;
-  height: 22vh;
-  float: left;
-  margin: 4vw;
-}
-.header h1{
-  font-size: 34px;
-}
-ul {
-  display: flex;
-  justify-content: space-around;
-  margin: 5vw;
-  margin-top: 0vw;
-}
-a {
-  margin: 2vw;
-  margin-top: 5vh;
-  padding: 2vh 4vw;
-  border-radius: .3rem;
-  text-decoration: none;
-  color: white;
-  background-color: rgba(101,	117,	133	, .5);
-}
-a:hover{
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 1);
-  background-color: rgba(81,	97,	113	, .5);
 }
 /*Spans for code effect*/
 .ind0 {
