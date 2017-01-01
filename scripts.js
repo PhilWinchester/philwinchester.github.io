@@ -28,7 +28,7 @@
         <span class='ind3'> <span class='pyChar'>print </span> <span class='pyStr'> "git commit -m "whoops forgot <br> <span class='ind4'>to commit && git push origin master"</span></span><br>
       `],
       // typeSpeed: -2000,
-      typeSpeed: -50,
+      typeSpeed: -40,
     });
   }
 
@@ -63,28 +63,28 @@
         <span class='ind0'>}</span>
       `],
       // typeSpeed: -2000,
-      typeSpeed: -50,
+      typeSpeed: -40,
     });
   }
 
-  // let imgArray = [
-  //   'http://placehold.it/300x200',
-  //   'http://placehold.it/200x100',
-  //   'http://placehold.it/400x300'],
-  //   curIndex = 0;
-  //   imgDuration = 3000;
-  //
-  // function slideShow() {
-  //     document.getElementById('slider').className += "fadeOut";
-  //     setTimeout(function() {
-  //         document.getElementById('slider').src = imgArray[curIndex];
-  //         document.getElementById('slider').className = "";
-  //     },1000);
-  //     curIndex++;
-  //     if (curIndex == imgArray.length) { curIndex = 0; }
-  //     setTimeout(slideShow, imgDuration);
-  // }
-  // slideShow();
+  let imgArray = [
+    'http://placehold.it/300x200',
+    'http://placehold.it/200x100',
+    'http://placehold.it/400x300'],
+    curIndex = 0;
+    imgDuration = 3000;
+
+  function slideShow() {
+      document.getElementById('slider').className += "fadeOut";
+      setTimeout(function() {
+          document.getElementById('slider').src = imgArray[curIndex];
+          document.getElementById('slider').className = "";
+      },1000);
+      curIndex++;
+      if (curIndex == imgArray.length) { curIndex = 0; }
+      setTimeout(slideShow, imgDuration);
+  }
+  slideShow();
 
 
 
