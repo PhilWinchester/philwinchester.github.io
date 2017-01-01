@@ -80,25 +80,37 @@ body {
   font-size: 20px;
   padding-left: 15px;
 }
+.proj-card img {
+  position: absolute;
+  top: 40%;
+  left: 1.5%;
+  height: 200px;
+  width: 300px;
+}
 .proj-link{
   position: absolute;
-  top: 85%;
-  left: 27%;
-  width: 90px;
+  top: 90%;
+  left: 0%;
+  border-radius: .1rem .1rem 0 0;
+  width: 269px;
+  height: 32px;
   padding: 1vh 2vw;
-  border-radius: .2rem;
+  /*border-radius: .2rem;*/
 
   text-decoration: none;
   letter-spacing: .5px;
 
   background-color: #222;
   color: #FAFAFA;
-  box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.75);
-  transition: 1s;
+  /*box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.75);*/
+  transition: .8s;
 }
 .proj-link:hover {
-  background-color: #FAFAFA;
-  color: #222;
+  background-color: #111;
+  color: #FAFAFA;
+}
+#wonky-one {
+  width: 268px;
 }
 .contact {
   background-color: #222;
