@@ -34,7 +34,7 @@
 
   drawPythonCode()
   // drawJavascriptCode()
-  let timeoutID = setTimeout(drawJavascriptCode, 10000)
+  let timeoutID = setTimeout(drawJavascriptCode, 11850)
 
   function drawJavascriptCode() {
     jsSpan.typed({
