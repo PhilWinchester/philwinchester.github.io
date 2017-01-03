@@ -141,7 +141,17 @@ body {
   left: 2vw;
 }
 #copy-button{
-  border-radius: 1rem;
+  position: relative;
+  top: -18px;
+  left: 195px;
+  width: 25px;
+  height: 20px;
+  background-color: #FAFAFA;
+  border-style: none;
+}
+#copy-button:active{
+  outline: 0;
+  background-color: #CFCFCF;
 }
 #thank-you{
   position: relative;
@@ -152,7 +162,7 @@ body {
 .contact-links-container {
   width: 300px;
   position: relative;
-  top: -12vh;
+  top: -11vh;
   left: 70vw;
 }
 .contact-links{

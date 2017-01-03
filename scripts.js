@@ -1,6 +1,7 @@
 'use strict';
 (() => {
-  new Clipboard('#copy-button');
+  let clipboard = new Clipboard('#copy-button');
+
   let pySpan = $("#py-txt")
   let jsSpan = $("#js-txt")
 
