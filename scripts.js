@@ -42,7 +42,7 @@
     jsSpan.typed({
       strings: [`
         <span class='jsFunc'>const</span> <span class='jsDef'>developer</span> <span class='jsKey'>=</span> (web) <span class='jsFunc'>=></span> { <br>
-        <span class='ind2'><span class='jsFunc'>let</span> uninspired = <span class='jsChar'>true</span></span><br>
+        <span class='ind2'><span class='jsFunc'>let</span> uninspired <span class='jsKey'>=</span> <span class='jsChar'>true</span></span><br>
         <span class='ind2'><span class='jsKey'>while</span>(uninspired){</span><br>
         <span class='ind3'><span class='jsFunc'>console<span class='jsKey'>.</span>log</span>(<span class='jsStr'>'google interesting API's' </span>);  </span><br>
         <span class='ind3'><span class='jsKey'>if</span> (google<span class='jsKey'>.</span>results <span class='jsKey'>===</span> <span class='jsStr'>'good idea'</span>) { </span><br>
