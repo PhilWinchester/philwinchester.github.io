@@ -151,12 +151,12 @@ body {
   left: 203px;
   width: 25px;
   height: 20px;
-  background-color: #FAFAFA;
+  background-color: #EAEAEA;
   border-style: none;
 }
 #copy-button:active{
   outline: 0;
-  background-color: #CFCFCF;
+  background-color: #BFBFBF;
 }
 #thank-you{
   position: relative;
