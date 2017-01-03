@@ -69,6 +69,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
 }
 .proj-card {
   background-color: #FAFAFA;
@@ -128,6 +131,9 @@ body {
 
   outline: 3px solid #FAFAFA;
   outline-offset: -20px;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
 }
 .contact-info{
   width: 300px;
@@ -154,8 +160,8 @@ body {
 }
 #thank-you{
   position: relative;
-  width: 250px;
-  left: 34vw;
+  width: 300px;
+  left: 35vw;
   top: 15vh;
   letter-spacing: .5px;
 }
