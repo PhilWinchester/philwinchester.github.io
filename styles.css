@@ -20,6 +20,15 @@ body {
   outline: 3px solid #FAFAFA;
   outline-offset: -2vw;
 }
+.header {
+  width: 22vw;
+  height: 22vh;
+  float: left;
+  margin: 4vw;
+}
+.header h1{
+  font-size: 34px;
+}
 .about{
   position: relative;
 
@@ -81,6 +90,7 @@ body {
 .proj-card p {
   font-size: 20px;
   padding-left: 15px;
+  padding: 10px;
 }
 .proj-card img {
   position: absolute;
@@ -94,40 +104,23 @@ body {
   position: absolute;
   top: 90%;
   left: 0%;
-  border-radius: .1rem .1rem 0 0;
-  width: 269px;
-  height: 32px;
-  padding: 1vh 2vw;
-  /*border-radius: .2rem;*/
+  border-radius: .15rem .15rem 0 0;
+  width: 310px;
+  height: 43px;
 
   text-decoration: none;
   letter-spacing: .5px;
+  text-align: center;
+  padding-top: 3px;
 
   background-color: #222;
   color: #FAFAFA;
-  /*box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.75);*/
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
   transition: .8s;
 }
 .proj-link:hover {
   background-color: #111;
   color: #FAFAFA;
-}
-#wonky-one {
-  width: 268px;
-}
-/*.slider {
-    animation: slideshow 1s infinite;
-}
-@keyframes slideshow{
-  0%{opacity: 1;}
-  100%{opacity: 0;}
-}*/
-.slider {
-    opacity: 1;
-    transition: opacity 1s;
-}
-.fadeOut {
-    opacity: 0;
 }
 .contact {
   background-color: #222;
@@ -138,46 +131,40 @@ body {
   outline: 3px solid #FAFAFA;
   outline-offset: -2vw;
 }
-p {
-  padding: 10px;
-}
-.header {
-  width: 22vw;
-  height: 22vh;
-  float: left;
-  margin: 4vw;
-}
-.header h1{
-  font-size: 34px;
-}
-ul {
-  display: flex;
-  justify-content: space-around;
-  margin: 5vw;
-  margin-top: 0vw;
-}
-.contact-links {
-  margin: 2vw;
-  margin-top: 5vh;
-  padding: 2vh 4vw;
-  border-radius: .3rem;
-  text-decoration: none;
-  letter-spacing: 1px;
-  color: #FAFAFA;
-  background-color: rgba(101,	117,	133	, .5);
-}
-.contact-links:hover{
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 1);
-  background-color: rgba(81,	97,	113	, .5);
-}
-#contact-info {
+.contact-info{
   background-color: firebrick;
-  transition: 2s;
+  width: 300px;
+  position: relative;
+  top: 3vh;
+  left: 3vw;
 }
-#contact-info:hover {
+.contact-info h4{
+  position: relative;
+  left: 2vw;
+}
+#copy-button{
+  border-radius: 1rem;
+}
+#thank-you{
+  position: relative;
+  left: 35vw;
+}
+.contact-links-container {
+  width: 300px;
+  position: relative;
+  top: -12vh;
+  left: 70vw;
+}
+.contact-links{
+  margin: 5px;
+}
+#linkedin-logo{
   width: 200px;
-  height: 60px;
-  background-color: dodgerblue;
+  height: 50px;
+}
+#github-logo{
+  width: 50px;
+  height: 50px;
 }
 /*Cursor Styling for Code Cards*/
 .typed-cursor{
@@ -252,7 +239,7 @@ ul {
   color: rgb(102,216,235)
 }
 .jsDef{
-  color: rgb(151,	222,	41)
+  color: rgb(151,222,41)
 }
 .jsStr{
   color: rgb(202,186,105)

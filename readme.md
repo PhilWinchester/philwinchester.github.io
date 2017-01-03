@@ -1,11 +1,17 @@
 # Personal Site for Phil Winchester
-- Contact:
-  - philipwinchester@gmail.com
-  - linkedin/philWinchester
+## Contact
+- philipwinchester@gmail.com
+- linkedin/philWinchester
 
 ## Technologies used
-  - typed.js
-  - clipboard.js
+- typed.js
+- clipboard.js
 
-## Photo Credit
- - Brandon Few - brandon@toomanyfews.com
+## Credits
+- Photo: Brandon Few - brandon@toomanyfews.com
+- Icons: Clipboard from Oticons
+         Github from Github logo page
+         Linkedin from Linkedin logo package
+
+## TODOs
+- Make site mobile friendly

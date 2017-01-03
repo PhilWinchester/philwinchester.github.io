@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <title>Phil Winchester</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="./ScrollMagic/scrollmagic/uncompressed/ScrollMagic.js" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script src="./typed.js/js/typed.js" charset="utf-8"></script>
+    <script src="./clipboard.js/dist/clipboard.min.js" charset="utf-8"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -66,14 +66,25 @@
         </p>
       </div>
     </div>
-
     <div class="contact">
-
-      <ul>
-        <a class='contact-links' id='contact-info'>Contact</a>
-        <a class='contact-links' href="https://www.linkedin.com/in/philwinchester">LinkedIn</a>
-        <a class='contact-links' href="https://github.com/PhilWinchester">Github</a>
-      </ul>
+      <div class="contact-info">
+        <h2>Contact:</h2>
+        <h4>philipwinchester@gmail.com</h4>
+        <h4>(212) - 203 - 6643</h4>
+        <button id='copy-button' data-clipboard-text="philipwinchester@gmail.com (212)-203-6643">
+          <img src="./assets/clippy.svg" alt="Copy to clipboard" class='clippy-img'>
+        </button>
+      </div>
+      <h4 id='thank-you'>Thanks for checking out my site!</h4>
+      <div class="contact-links-container">
+        <h4>See more at:</h4>
+        <a class='contact-links' target="_blank" href="https://www.linkedin.com/in/philwinchester">
+            <img id='linkedin-logo' src="./assets/linkedin.png" alt="Linkedin Logo">
+        </a>
+        <a class='contact-links' target="_blank" href="https://github.com/PhilWinchester">
+          <img id='github-logo' src="./assets/github.png" alt="Github Logo">
+        </a>
+      </div>
     </div>
 
     <script src="scripts.js" charset="utf-8"></script>
@@ -81,4 +92,4 @@
 </html>
 
 
-<!-- Phil is a recent CS graduate currently taking a General Assembly Web Development Immersive course. Fluent in Python, C#, and Javascript. -->
+<!-- Phil is a recent CS graduate currently taking a General Assembly Web Development Immersive course. Fluent in Javascript, C#, and Python. -->
