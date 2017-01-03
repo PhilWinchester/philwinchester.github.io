@@ -130,7 +130,7 @@ body {
   outline-offset: -2vw;
 }
 .contact-info{
-  background-color: firebrick;
+  /*background-color: firebrick;*/
   width: 300px;
   position: relative;
   top: 3vh;
