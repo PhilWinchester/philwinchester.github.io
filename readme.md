@@ -9,8 +9,8 @@
 
 ## Credits
 - Photo: Brandon Few - brandon@toomanyfews.com
-- Icons: Clipboard from Oticons
-         Github from Github logo page
+- Icons: Clipboard from Oticons \n
+         Github from Github logo page \n
          Linkedin from Linkedin logo package
 
 ## TODOs
