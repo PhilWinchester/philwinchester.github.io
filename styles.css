@@ -18,7 +18,7 @@ body {
   position: relative;
 
   outline: 3px solid #FAFAFA;
-  outline-offset: -2vw;
+  outline-offset: -20px; -2vw;
 }
 .header {
   width: 22vw;
@@ -63,7 +63,7 @@ body {
   align-items: center;
 
   outline: 3px solid #222;
-  outline-offset: -2vw;
+  outline-offset: -20px; -2vw;
 
   background-attachment: fixed;
   background-position: center;
@@ -127,7 +127,7 @@ body {
   position: relative;
 
   outline: 3px solid #FAFAFA;
-  outline-offset: -2vw;
+  outline-offset: -20px;
 }
 .contact-info{
   /*background-color: firebrick;*/
@@ -146,7 +146,8 @@ body {
 #thank-you{
   position: relative;
   width: 250px;
-  left: 35vw;
+  left: 34vw;
+  letter-spacing: .5px;
 }
 .contact-links-container {
   width: 300px;
