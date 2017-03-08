@@ -62,8 +62,8 @@ body {
   justify-content: space-around;
   align-items: center;
 
-  outline: 3px solid #222;
-  outline-offset: -20px; -2vw;
+  /*outline: 3px solid #222;
+  outline-offset: -20px; -2vw;*/
 
   background-attachment: fixed;
   background-position: center;
@@ -76,7 +76,7 @@ body {
 .proj-card {
   background-color: #FAFAFA;
   color: #222;
-  box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.75);
+  /*box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.75);*/
   padding: 5px;
   width: 300px;
   height: 450px;
@@ -95,7 +95,7 @@ body {
 }
 .proj-card img {
   position: absolute;
-  box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.75);
+  /*box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.75);*/
   top: 45%;
   left: 1.5%;
   height: 200px;
@@ -116,7 +116,7 @@ body {
 
   background-color: #222;
   color: #FAFAFA;
-  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+  /*box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);*/
   transition: .8s;
 }
 .proj-link:hover {
